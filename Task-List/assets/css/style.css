@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
+
+:root {
+  --light-green: rgb(230, 217, 95);
+  --gray: rgba(255, 255, 255, 0.5);
+  --pink: rgb(235, 187, 98);
+
+  --dark-green: rgb(23, 117, 11);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: var(--light-green);
+
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-size: 1.3em;
+  line-height: 1.2em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 10px auto;
+  padding: 20px;
+
+  text-align: center;
+
+  background-color: var(--gray);
+
+  border-radius: 5px;
+}
+
+.submit {
+  display: block;
+  width: 100%;
+
+  margin-bottom: 3px;
+}
+
+.input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+  width: 100%;
+
+  margin: 20px 5px;
+  border-radius: 5px;
+}
+
+.input:focus {
+  outline: 1px solid var(--light-green);
+  background-color: var(--pink);
+}
+
+.submit {
+  margin-top: 10px;
+  border: 0px;
+  background-color: var(--light-green);
+  color: rgba(0, 0, 0, 0.384);
+  font-size: 25px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.384);
+}
+
+.submit:hover {
+  background-color: var(--pink);
+  border: 3px solid rgba(0, 0, 0, 0.384);
+}
+
+.submit:active {
+  background-color: var(--pink);
+}
+
+.input::placeholder {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.384);
+}
+
+#containerLista li {
+  display: flex;
+  justify-content: space-between !important;
+}
+
+li{
+  margin-bottom: 5px;
+}
+
+.apagar {
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(247, 238, 162);
+  color: rgba(0, 0, 0, 0.384);
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+}
+
+.apagar:hover {
+  color: black;
+  background-color: rgb(238, 224, 99);
+}
+
+.footer {
+  display: flexbox;
+
+  width: 400px;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  margin-left: 34%;
+  padding-top: 5px;
+
+  background-color: var(--gray);
+
+  border-radius: 7px;
+
+  position: absolute;
+  bottom: 5px;
+
+  font-family: "Abril Fatface", cursive;
+  color: black;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+
+.footer img {
+  width: 40px;
+  height: 40px;
+  margin-inline: 5px;
+  margin-top: 10px;
+
+  cursor: pointer;
+}

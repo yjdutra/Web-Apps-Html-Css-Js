@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: var(--light-green);
+
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-size: 1.3em;
+  line-height: 1.2em;
+
+  background-color: rgb(243, 219, 80);
+}
+
+section {
+  align-items: center;
+  text-align: center;
+
+  margin-top: 30px;
+}
+
+section h1 {
+letter-spacing: 5px;
+}
+
+table {
+  text-align: center;
+
+  display: flex;
+  margin-left: 29%;
+}
+
+table td {
+  width: 300px;
+  background-color: rgba(241, 241, 231, 0.3);
+
+  border-radius: 5px;
+}
+
+table tr:hover {
+  background-color: rgba(241, 241, 231, 0.8);
+}
+
+table tr {
+  height: 50px;
+}
+
+form input {
+  width: 290px;
+  height: 50px;
+
+  border-radius: 5px;
+
+  text-align: center;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-weight: 50px;
+  font-size: 30px;
+}
+
+form input:placeholder-shown {
+  text-align: center;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-weight: 50px;
+  font-size: 30px;
+}
+
+form button {
+  width: 590px;
+  height: 40px;
+
+  border-radius: 5px;
+
+  margin-top: 10px;
+
+  font-size: 30px;
+  font-family: "Roboto Mono", monospace, sans-serif;
+
+  cursor: pointer;
+
+  transition: 0.5s;
+
+  background-color: rgba(241, 241, 231, 0.3);
+}
+
+form button:hover {
+  background-color: rgba(241, 241, 231, 0.8);
+}
+
+.resultado {
+  width: 600px;
+  height: 50px;
+
+  text-align: center;
+  letter-spacing: 2px;
+
+  margin-left: 29%;
+  margin-top: 15px;
+
+  padding: 1px;
+
+  background-color: rgb(241, 241, 231);
+
+  border-radius: 5px;
+}
+
+.footer {
+  display: flexbox;
+
+  width: 400px;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  margin-left: 34%;
+  padding-top: 5px;
+
+  background-color: rgba(241, 241, 231, 0.8);
+
+  border-radius: 7px;
+
+  position: absolute;
+  bottom: 5px;
+
+  font-family: "Abril Fatface", cursive;
+  color: black;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+
+.footer img {
+  width: 40px;
+  height: 40px;
+  margin-inline: 5px;
+  margin-top: 10px;
+
+  cursor: pointer;
+}

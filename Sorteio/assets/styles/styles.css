@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+:root {
+  --background: rgb(59, 151, 255);
+  --pink: rgba(243, 150, 212, 0.856);
+}
+
+body {
+  background-color: var(--background);
+  font-family: "Abril Fatface", cursive;
+}
+
+.section {
+  width: 600px;
+  height: 480px;
+
+  margin-left: 28%;
+
+  display: flexbox;
+
+  border-radius: 7px;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  background-color: var(--pink);
+}
+
+.title h1 {
+  color: aliceblue;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+.title p {
+  color: aliceblue;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.form p {
+  color: aliceblue;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.input {
+  width: 400px;
+  height: 50px;
+
+  border: none;
+  border-radius: 7px;
+
+  color: black;
+  font-size: 20px;
+  font-family: "Abril Fatface", cursive;
+}
+
+.input::placeholder {
+  text-align: center;
+  align-items: center;
+}
+
+.submit {
+  width: 100px;
+  height: 30px;
+
+  border-radius: 7px;
+
+  margin-top: 15px;
+
+  cursor: pointer;
+
+  font-family: "Abril Fatface", cursive;
+  font-size: 20px;
+
+  border: none;
+}
+
+.reset {
+  width: 100px;
+  height: 30px;
+
+  border-radius: 7px;
+
+  margin-top: 15px;
+
+  cursor: pointer;
+
+  font-family: "Abril Fatface", cursive;
+  font-size: 20px;
+
+  border: none;
+}
+
+.reset:hover {
+  background-color: var(--pink);
+  border: 1px solid var(--background);
+}
+
+.sortear {
+  width: 200px;
+  height: 30px;
+
+  border-radius: 7px;
+
+  margin-top: 10px;
+
+  cursor: pointer;
+
+  font-family: "Abril Fatface", cursive;
+  font-size: 20px;
+
+  border: none;
+}
+
+button:hover {
+  background-color: var(--pink);
+  border: 1px solid var(--background);
+}
+
+.NumeroPessoas {
+  color: aliceblue;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.resposta {
+  color: aliceblue;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+
+.footer {
+  display: flexbox;
+
+  width: 400px;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  margin-left: 34%;
+  padding-top: 5px;
+
+  background-color: var(--pink);
+
+  border-radius: 7px;
+
+  position: absolute;
+  bottom: 5px;
+
+  font-family: "Abril Fatface", cursive;
+  color: aliceblue;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+
+.footer img {
+  width: 40px;
+  height: 40px;
+  margin-inline: 5px;
+  margin-top: 10px;
+
+  cursor: pointer;
+}
